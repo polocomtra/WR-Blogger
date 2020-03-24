@@ -7,7 +7,8 @@
     <!-- Link CSS-->
     <link rel="stylesheet" href="./resources/css/style.css">
     <link rel="stylesheet" href="./resources/css/mobile-style.css">
-    
+    <!-- Link animation-->
+    <link rel="stylesheet" href="./resources/css/animate.min.css">
     <!-- Link Font Awesome-->
     <script src="https://kit.fontawesome.com/1f503a075c.js" crossorigin="anonymous"></script>
 
@@ -64,7 +65,7 @@
 
         <!--Site Title-->
         <section class="site-title">
-            <div class="site-background">
+            <div class="site-background wow flip">
                 <h3>Tours & Travels</h3>
                 <h1>Amazing Place On Earth</h1>
                 <button class="btn">Explore</button>
@@ -122,9 +123,9 @@
 
         <section class="container">
             <div class="site-content">
-                <div class="posts">
+                <div class="posts ">
                     <!-- First BLog post-->
-                    <div class="post-content">
+                    <div class="post-content wow bounceInLeft">
                         <div class="post-image">
                             <div>
                                 <img class="img"src="./resources/assets/Blog-post/blog1.png" alt="blog1">
@@ -146,7 +147,7 @@
                     </div>
                     <hr>
                     <!-- Second Blog post-->
-                    <div class="post-content">
+                    <div class="post-content wow bounceInUp">
                         <div class="post-image">
                             <div>
                                 <img class="img"src="./resources/assets/Blog-post/blog2.png" alt="blog2">
@@ -168,7 +169,7 @@
                     </div>
                     <hr>
                     <!-- Third Blog post-->
-                    <div class="post-content">
+                    <div class="post-content wow flipInX">
                         <div class="post-image">
                             <div>
                                 <img class="img"src="./resources/assets/Blog-post/blog3.png" alt="blog3">
@@ -190,7 +191,7 @@
                     </div>
                     <hr>
                     <!-- Fourth Blog post-->
-                    <div class="post-content">
+                    <div class="post-content wow lightSpeedIn">
                         <div class="post-image">
                             <div>
                                 <img class="img"src="./resources/assets/Blog-post/blog4.png" alt="blog4">
@@ -210,7 +211,7 @@
                             <button class="btn post-btn">Read More &nbsp;<i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
-                    <div class="pagination flex-row">
+                    <div class="pagination flex-row wow lightSpeedIn">
                         <a href="#"><i class="fas fa-chevron-left"></i></a>
                         <a href="#" class="pages">1</a>
                         <a href="#" class="pages">2</a>
@@ -219,7 +220,7 @@
                     </div>
                 </div>
                 <aside class="sidebar">
-                    <div class="category">
+                    <div class="category wow bounceInRight">
                         <h2>Category</h2>
                         <ul class="category-list">
                             <li class="list-items">
@@ -244,7 +245,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="popular-post">
+                    <div class="popular-post wow bounceInDown">
                         <h2>Popular Post</h2>
                         <!--First post -->
                         <div class="post-content">
@@ -327,14 +328,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="newsletter">
+                    <div class="newsletter wow rotateIn">
                         <h2>Newsletter</h2>
                         <div class="form-element">
                             <input type="text" class="input-element" placeholder="Email">
                             <button class="btn form-btn">Subscribe</button>
                         </div>
                     </div>
-                    <div class="popular-tags">
+                    <div class="popular-tags wow slideInUp">
                         <h2>Popular Tag</h2>
                         <div class="tags">
                             <span class="tag">Software</span>
@@ -353,7 +354,7 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
+        <div class="container wow zoomIn">
             <div class="about-us">
                 <h2>About Us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -406,8 +407,11 @@
     </footer>
     
 
-    
-
+    <!-- Wow.js-->
+    <script src="./resources/js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <!--Jquery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     

@@ -86,7 +86,7 @@ p{
 
 /* navbar */
 .nav{
-    background: white;
+    background: #F5FFFA;
     padding: 0 2rem;
     height: 0rem;
     min-height: 10vh;
@@ -95,6 +95,7 @@ p{
 
 .nav .nav-brand a{
     font-size: 1.6rem;
+    font-weight: bold;
     padding: 1rem 0;
     display: block;
     font-family: var(--Lexend);
@@ -138,6 +139,7 @@ p{
     position: relative;
     font-family: var(--Abel);
     font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .nav .nav-items .nav-link:hover{
@@ -174,7 +176,7 @@ main .site-title{
 main .site-title .site-background{
     padding-top: 10rem;
     text-align: center;
-    color: var(--white);
+    color: #F5FFFA;
 }
 
 main .site-title .h1,h3{
@@ -184,7 +186,7 @@ main .site-title .h1,h3{
 main .site-title .btn{
     margin: 1.8rem;
     background:var(--sky);
-
+    font-weight: bold;
 }
 
 main .site-title .btn:hover{
